@@ -1,10 +1,11 @@
 package modd
 
 import "fmt"
-import "github.com/lcp8474140/modd"
+import "github.com/lcp8474140/modc"
 
 var Version="v1.0.0"
 
 func Print() {
-	fmt.Println("modc", Version)
+	fmt.Println("modd", Version)
+	modc.Print()
 }
